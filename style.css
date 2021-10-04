@@ -1,0 +1,191 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border-bottom: 1px solid lightgray;
+	height: 80px;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	background-color: #FAFAFA;
+	opacity: 90%;
+}
+
+.logoContainer {
+	width: 50px;
+	height: 50px;
+}
+
+.logo {
+	width: 100%;
+}
+
+.left {
+	display: inline-block;
+	width: 50%;
+	
+	
+}
+
+.leftInner {
+	
+	width: 70%;
+}
+
+
+
+.right {
+	display: inline-block;
+	width: 50%;
+	
+	
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}	
+
+.footer {
+	font-size: 25px;
+	margin-top: 100px;
+	text-align: center;
+	background-color: #FAFAFA;
+	padding: 50px;
+	
+}
+
+
+.appleGoogle {
+	width: 50%;
+	
+}	
+
+.rightImage {
+	width: 140%;
+	
+	
+	
+}
+
+.menuItem {
+	text-decoration: none;
+	color: inherit;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+.menuItem:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+}
+
+
+
+.blockElement {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: #F6F6F6;
+	height: 30px;
+	border-radius: 10px;
+	outline: none;
+	width: 250px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 16px;
+}
+
+.signInButton {
+	background-color: #0084ff;
+	border: none;
+	border-radius: 24px;
+	padding: 2px 20px 0;
+	color: white;
+	font-size: 19px;
+	height: 40px;
+	width: 100px;
+	
+}
+
+.mainContainer {
+	max-width: 800px;
+	margin: 0 auto;
+	
+}
+
+.titleHeader {
+	margin-bottom: 20px;
+}
+
+.description {
+	margin-bottom: 20px;
+}
+
+
+.inputSpan {
+	margin-bottom: 20px;
+}
+
+.password {
+	margin-bottom: 20px;
+}
+
+.rightMenu {
+	width: 40px;
+}
+
+.menuMobileContainer {
+	display: none;
+}
+
+@media (max-width: 400px) {
+	.menuContainer {
+		display: none;
+	}
+	
+	.menuMobileContainer {
+		display: block;
+	}
+	
+	.left {
+		width: 100%;
+		margin-bottom: 50px;
+		
+	}
+	
+	.leftInner {
+		margin: 0 auto;	
+		width: 80%;
+	}
+	
+	.right {
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	.rightImage {
+		margin: 0 -50%;
+	}
+}
+
+@media (max-width: 375px) {
+	.inner {
+		width: 95%;
+	}
+	
+	.footer {
+		margin-top: 30px;
+		font-size: 20px;
+		padding: 10px;
+	}
+
+}
